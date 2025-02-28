@@ -31,12 +31,52 @@ int main(int argc, char *argv[]){
 			// run -mean function
 		}else if(strcmp(argv[i],"-records")==0){
 			// run -records function
+		}else{
+			return EXIT_FAILURE;
 		}
 	}
-	
+
 
 
 
 
 	return 0;
 }
+
+	int f(char* filename, char* argv[]){
+		//calculate how many fields in first record
+		return 0;
+	}
+
+	int r(char *filename, char* argv[]){
+		//calulate how many data records in file, if -h is also attached -1 from it
+		return 0;
+	}
+
+	int h(char* filename, char* argv[]){
+			//check for extra arguments sicne it can use extra
+		return 0;
+	}
+
+	int min(char* filename, char* argv[]){
+
+		return 0;
+	}
+
+	int max(char* filename, char* argv[]){
+
+		return 0;
+
+	}
+
+	int mean(char* filename, char* argv[]){
+
+		return 0;
+	}
+
+	string records(char* filename, char* argv[]){
+
+		return 0;
+	}
+
+
