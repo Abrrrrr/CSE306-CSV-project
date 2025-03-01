@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <string.h>
 
 	void f(char* filename){
@@ -54,7 +55,7 @@ int main(int argc, char *argv[]){
 			r(filename);
 		}else if(strcmp(argv[i],"-h")==0){
 			// run -h function
-			h_is= TRUE;
+			h_is= true;
 		}else if(strcmp(argv[i],"-min")==0){
 			// run -min function
 		}else if(strcmp(argv[i],"-max")==0){
